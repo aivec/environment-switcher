@@ -1,0 +1,51 @@
+# Copyright (C) 2021 Aivec LLC.
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Aivec Environment Switcher %%VERSION%%\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/environment-switcher\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-05-13T17:25:54+09:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: avces\n"
+
+#. Plugin Name of the plugin
+msgid "Aivec Environment Switcher"
+msgstr ""
+
+#. Description of the plugin
+msgid "Switch between development, staging, and production environments for integration testing."
+msgstr ""
+
+#. Author of the plugin
+msgid "Aivec LLC."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.aivec.co.jp"
+msgstr ""
+
+#: src/SettingsPage.php:62
+msgid "Environment Settings"
+msgstr ""
+
+#: src/SettingsPage.php:83
+msgid "Development"
+msgstr ""
+
+#: src/SettingsPage.php:84
+msgid "Staging"
+msgstr ""
+
+#: src/SettingsPage.php:85
+msgid "Production"
+msgstr ""
+
+#: src/SettingsPage.php:89
+msgid "Working Environment"
+msgstr ""

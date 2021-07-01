@@ -1,0 +1,30 @@
+#!/usr/bin/env php
+<?php
+
+use Aivec\PtBundler\Bundler;
+
+passthru('composer install');
+
+require_once(__DIR__ . '/vendor/autoload.php');
+
+(new Bundler('environment-switcher'))
+    ->setFoldersToInclude(['lib', 'languages', 'src', 'vendor'])
+    ->setFilesToInclude(['environment-switcher.php'])
+    ->setTargetsToCleanAfterBuild([
+        'vendor/bin',
+        'vendor/aivec',
+        'vendor/dealerdirect',
+        'vendor/gettext',
+        'vendor/mck89',
+        'vendor/mustache',
+        'vendor/phpcompatibility',
+        'vendor/rmccue',
+        'vendor/squizlabs',
+        'vendor/symfony',
+        'vendor/wp-cli',
+        'vendor/wp-coding-standards',
+    ])
+    ->setCleanupCallback(function () {
+        passthru('composer dump-autoload');
+    })
+    ->createZipArchive();

@@ -9,7 +9,8 @@
   ],
   "require-dev": {
     "aivec/phpcs-wp": "^2.0",
-    "wp-cli/i18n-command": "^2.2"
+    "wp-cli/i18n-command": "^2.2",
+    "aivec/pt-bundler": "^1.1"
   },
   "autoload": {
     "psr-4": {
